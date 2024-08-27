@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: georgia;
+}
+
+/*Cabecera*/
+
+.cabecera{
+
+    display: flex;
+    background: rgb(243, 227, 205);
+    padding: 10px;
+}
+
+.logo{
+    display: flex;  
+}
+.logo img{
+    width: 30%;
+}
+
+.logo h1{
+    font-size: 30px;
+    color: chocolate;
+}
+.redes{
+    display: flex;
+    justify-content: right;
+}
+.redes img{
+   justify-items: right;
+   padding: 10px;
+   width: 15%;
+   
+}
+.red1:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+.red2:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.red3:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+/*Formulario*/
+

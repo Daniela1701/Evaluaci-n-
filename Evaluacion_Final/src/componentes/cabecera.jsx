@@ -9,12 +9,14 @@ function Cabecera()
   return (
     <>
     <div className="cabecera">
+        <div className='logo'>
         <img src={logo} />
         <h1>MueblesFAST</h1>
+        </div>
         <div className='redes'>
-            <img src={facebook}  />
-            <img src={instagram} />
-            <img src={youtube} />
+            <img src={facebook}  className='red1' />
+            <img src={instagram} className='red2' />
+            <img src={youtube} className='red3' />
         </div>
     </div>
       
