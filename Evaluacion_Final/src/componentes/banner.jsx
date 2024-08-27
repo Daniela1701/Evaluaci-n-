@@ -27,9 +27,7 @@ function Banner() {
 
   return (
         <div id="Banner">
-            <section>
             <img id="imagenBanner" src={imagen[indiceImg]} alt={`Banner ${indiceImg}`} />
-            </section>
         </div>
 
   );

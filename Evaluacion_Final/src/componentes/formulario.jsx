@@ -58,7 +58,9 @@ const Formulario = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} style={{ padding: '20px', borderRadius: '8px', backgroundColor: '#f9f9f9' }}>
+        <div className='formu'>
+        <form onSubmit={handleSubmit} style={{ padding: '30px', borderRadius: '8px', backgroundColor: '#f9f9f9' }}>
+            <div className='bloque1'>
             <div>
                 <label>First Name</label>
                 <input
@@ -66,7 +68,7 @@ const Formulario = () => {
                     name="firstName"
                     value={formValues.firstName}
                     onChange={handleChange}
-                    style={{ display: 'block', width: '100%', marginBottom: '10px' }}
+                    style={{ width: '100%', marginBottom: '10px' }}
                 />
                 {errors.firstName && <p style={{ color: 'red' }}>{errors.firstName}</p>}
             </div>
@@ -80,6 +82,7 @@ const Formulario = () => {
                     style={{ display: 'block', width: '100%', marginBottom: '10px' }}
                 />
                 {errors.lastName && <p style={{ color: 'red' }}>{errors.lastName}</p>}
+            </div>
             </div>
             <div>
                 <label>Email Address</label>
@@ -107,6 +110,7 @@ const Formulario = () => {
                 Submit
             </button>
         </form>
+        </div>
     );
 };
 

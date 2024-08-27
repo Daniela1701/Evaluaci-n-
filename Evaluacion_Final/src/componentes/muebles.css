@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     box-sizing: border-box;
     font-family: georgia;
 }
@@ -8,10 +8,9 @@
 /*Cabecera*/
 
 .cabecera{
-
     display: flex;
     background: rgb(243, 227, 205);
-    padding: 10px;
+    
 }
 
 .logo{
@@ -22,7 +21,7 @@
 }
 
 .logo h1{
-    font-size: 30px;
+    font-size: 200%;
     color: chocolate;
 }
 .redes{
@@ -44,5 +43,46 @@
 .red3:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
 }
+hr{
+    background-color: orange;
+    padding: 2px;
+    height: 1px;
+}
+/*banner*/
+
+#Banner img{
+    width: 100%;
+
+}
+
 /*Formulario*/
 
+.formu{
+    padding: 30px;
+    width: 80%;
+
+}
+.bloque1{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 40px;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 115, 0);
+}
+.footer h2{
+    color: white;
+}
+.reloj{
+    display: flex;
+}
+.reloj p{
+    padding: 5px;
+    color: black;
+}
