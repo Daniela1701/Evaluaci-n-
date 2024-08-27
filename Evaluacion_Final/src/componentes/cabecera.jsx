@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import './App.css'
 
-function Cabecera() {
-  const [count, setCount] = useState(0)
+import '../componentes/muebles.css'
+
+function Cabecera() 
+{
 
   return (
     <>
-      <h1>Vite + React</h1>
+    <div>
+      <h1>MueblesFAST</h1>
+    </div>
+      
     </>
   )
 }
