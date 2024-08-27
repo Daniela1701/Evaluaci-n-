@@ -1,3 +1,4 @@
+import Banner from "./componentes/banner"
 import Cabecera from "./componentes/cabecera"
 
 function Muebles() {
@@ -5,6 +6,8 @@ function Muebles() {
     return (
       <>
         <Cabecera/>
+        <Banner/>
+
       </>
     )
   }
